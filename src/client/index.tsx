@@ -90,7 +90,8 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Where's everyone at?</h1>
+      <h1>Where's everyone at? We're upgrading our infrastructure</h1>
+      <p1>For access to client systems please continue using the provided private domains and systems via SSO</p1>
       {counter !== 0 ? (
         <p>
           <b>{counter}</b> {counter === 1 ? "person" : "people"} connected.
@@ -107,9 +108,7 @@ function App() {
 
       {/* Let's give some credit */}
       <p>
-        Powered by <a href="https://cobe.vercel.app/">🌏 Cobe</a>,{" "}
-        <a href="https://www.npmjs.com/package/phenomenon">Phenomenon</a> and{" "}
-        <a href="https://npmjs.com/package/partyserver/">🎈 PartyServer</a>
+        Powered by <a href="https://syndicate.center/">🌏 SC</a>,{" "}
       </p>
     </div>
   );
